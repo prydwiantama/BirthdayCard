@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prayudad.birthdaycard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="512dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/birthday"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="311dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="TO THE SWEETEST AND LOVELIEST PERSON I KNOW"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFC400"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Happy Birthday!!"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FF6D00"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="20"
+        android:textColor="#69F0AE"
+        android:textSize="100sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="th"
+        android:textColor="#69F0AE"
+        android:textSize="75sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="FROM : PRYD"
+        android:textColor="#90A4AE"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+
+</android.support.constraint.ConstraintLayout>
